@@ -5,7 +5,11 @@
     overflow: hidden;
   }
   .portrait {
+    display: block;
     height: 100vh;
+  }
+  .main {
+    display: none;
   }
 }
 
