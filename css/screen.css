@@ -4,6 +4,8 @@
   }
   .portrait {
     display: block;
+    height: 100vh;
+    -webkit-height: 100vh;
   }
   .first {
     display: none;
