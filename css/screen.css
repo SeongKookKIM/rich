@@ -2,9 +2,7 @@
   body {
     box-sizing: border-box;
     height: 100vh;
-  }
-  body::-webkit-scrollbar {
-    display: none;
+    overflow: hidden;
   }
   .portrait {
     display: block;
