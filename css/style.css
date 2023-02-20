@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: black;
-  overflow: hidden;
+  overflow: hidden !important;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -30,7 +30,6 @@ body {
 /* portrait */
 .portrait {
   width: 100%;
-  height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   background-color: rgba(0, 0, 0, 1);
   backdrop-filter: blur(7px);
@@ -42,8 +41,8 @@ body {
   display: none;
 }
 .portrait svg {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,8 +69,8 @@ body {
   }
 }
 .portrait svg:nth-child(2) {
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   position: absolute;
   top: 50%;
   left: 50%;
