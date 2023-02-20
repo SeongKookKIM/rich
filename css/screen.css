@@ -505,6 +505,10 @@
     height: 60px;
     margin-left: 30px;
   }
+  .slider_circle_10 .active .sub {
+    opacity: 1;
+    z-index: 9999;
+  }
   .swiper-name {
     top: 20%;
   }

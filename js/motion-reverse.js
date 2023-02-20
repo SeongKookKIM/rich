@@ -15,7 +15,7 @@ $(function () {
       $(".roadmap .book").css({ top: "50%", opacity: "0.5" });
     }, 2000);
     setTimeout(function () {
-      $(".roadmap .book").css({ opacity: "0" });
+      $(".roadmap .book").css({ opacity: "0", display: "none" });
     }, 2300);
     //   book
     setTimeout(function () {

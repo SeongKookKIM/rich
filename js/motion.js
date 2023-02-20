@@ -17,6 +17,7 @@ $(".roadmap .box").click(function () {
   }, 2000);
   setTimeout(function () {
     $(".roadmap .book").css({
+      display: "block",
       opacity: "0.5",
     });
   }, 2200);
