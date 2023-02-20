@@ -6,12 +6,10 @@
     display: block;
   }
   .first {
-    height: 100vh;
     overflow: hidden;
   }
   .main {
     display: none;
-    height: 100vh;
     overflow: hidden;
   }
 }
