@@ -1,7 +1,6 @@
 @media screen and (orientation: portrait) {
   body {
     box-sizing: border-box;
-    height: 100vh;
     overflow: hidden;
   }
   .portrait {
