@@ -5,24 +5,7 @@
     overflow: hidden;
   }
   .portrait {
-    display: block;
     height: 100vh;
-  }
-  .first {
-    display: none;
-    overflow: hidden;
-  }
-  .main {
-    display: none;
-    overflow: hidden;
-  }
-  .scroll {
-    display: none;
-    overflow: hidden;
-  }
-  .inner {
-    display: none;
-    overflow: hidden;
   }
 }
 
