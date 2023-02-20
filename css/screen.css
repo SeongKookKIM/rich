@@ -672,6 +672,12 @@
     font-size: 30px;
     top: 0%;
   }
+  .next_button {
+    left: 33% !important;
+  }
+  .next_button {
+    left: 67% !important;
+  }
   .swiper-img {
     width: 350px;
     height: 350px;
