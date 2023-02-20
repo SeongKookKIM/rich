@@ -1,11 +1,14 @@
 @media screen and (orientation: portrait) {
   body {
     box-sizing: border-box;
+    height: 100vh;
+  }
+  body::-webkit-scrollbar {
+    display: none;
   }
   .portrait {
     display: block;
     height: 100vh;
-    -webkit-height: 100vh;
   }
   .first {
     display: none;
