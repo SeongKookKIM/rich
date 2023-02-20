@@ -592,7 +592,7 @@
   }
   .enter input {
     font-size: 10px;
-    padding-top: 5px;
+    padding-top: 2px;
   }
   .slider_circle_10 .active {
     width: 180px !important;
