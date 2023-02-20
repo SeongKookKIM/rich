@@ -21,9 +21,23 @@
     <!-- === Title === -->
     <title>Rich</title>
     <!-- === Favicon === -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/" />
-    <link rel="icon" type="image/ico" sizes="32x32" href="/" />
-    <link rel="icon" type="image/ico" sizes="16x16" href="/" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/rich fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="32x32"
+      href="img/rich fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="16x16"
+      href="img/rich fav/favicon-16x16.png"
+    />
     <!-- === Style CSS === -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/screen.css" />
@@ -134,12 +148,7 @@
       <!-- === Scroll Top === -->
       <div class="header">
         <div class="logo">
-          <img
-            class="lazy"
-            data-src="img/logo.png"
-            alt="logo"
-            onClick="window.location.reload()"
-          />
+          <img class="lazy" data-src="img/logo.png" alt="logo" />
         </div>
       </div>
       <!-- === Road Map === -->
@@ -577,7 +586,11 @@
             <div class="comingsoon">
               <figure>
                 <img class="lazy" data-src="img/nft/enter.png" alt="enter" />
-                <p>BUY NOW</p>
+                <p
+                  onclick="window.open('https://strmnft.com/collection/nft/156333')"
+                >
+                  BUY NOW
+                </p>
               </figure>
             </div>
             <div class="swiper-back">
@@ -751,7 +764,11 @@
             <div class="comingsoon">
               <figure>
                 <img class="lazy" data-src="img/nft/enter.png" alt="enter" />
-                <p>BUY NOW</p>
+                <p
+                  onclick="window.open('https://strmnft.com/collection/nft/156333')"
+                >
+                  BUY NOW
+                </p>
               </figure>
             </div>
             <div class="swiper-back">
@@ -928,7 +945,11 @@
             <div class="comingsoon">
               <figure>
                 <img class="lazy" data-src="img/nft/enter.png" alt="enter" />
-                <p>BUY NOW</p>
+                <p
+                  onclick="window.open('https://strmnft.com/collection/nft/156333')"
+                >
+                  BUY NOW
+                </p>
               </figure>
             </div>
             <div class="swiper-back">
@@ -1139,7 +1160,11 @@
             <div class="comingsoon">
               <figure>
                 <img class="lazy" data-src="img/nft/enter.png" alt="enter" />
-                <p>BUY NOW</p>
+                <p
+                  onclick="window.open('https://strmnft.com/collection/nft/156333')"
+                >
+                  BUY NOW
+                </p>
               </figure>
             </div>
             <div class="swiper-back">
@@ -1408,6 +1433,18 @@
           });
         });
         $(".swiper-back").click(function () {
+          $(".inner").fadeOut(2000);
+          $(".scroll").fadeIn(2000);
+          gsap.to(".scorll-top", {
+            y: 5,
+            ease: "power3.inout",
+          });
+          $(".main").css({
+            "background-position": "center bottom 8%",
+            "background-size": "90%",
+          });
+        });
+        $(".header .logo img").click(function () {
           $(".inner").fadeOut(2000);
           $(".scroll").fadeIn(2000);
           gsap.to(".scorll-top", {
