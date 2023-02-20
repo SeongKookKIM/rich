@@ -48,6 +48,10 @@
 
     <!-- === 모바일 주소창 === -->
     <script type="text/javascript">
+      document.oncontextmenu = () => {
+        return false;
+      };
+
       window.addEventListener(
         "load",
         function () {
@@ -61,7 +65,12 @@
       }
     </script>
   </head>
-  <body>
+  <body
+    oncontextmenu="return false"
+    onselect="return false"
+    ondragstart="return false"
+    onkeydown="return false"
+  >
     <!-- === orientation: portrait === -->
     <section class="portrait">
       <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 20">
