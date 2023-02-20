@@ -33,6 +33,9 @@ body {
   background-color: rgba(0, 0, 0, 1);
   backdrop-filter: blur(7px);
   z-index: 999999;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: none;
   overflow: hidden;
 }
@@ -164,7 +167,7 @@ figure img {
 /* === Main === */
 .main {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url(../img/main/bottom.png) no-repeat;
   background-position: center bottom 8%;
   background-size: 90%;
@@ -172,6 +175,9 @@ figure img {
   transition: all 2s ease;
   opacity: 0;
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .header {
   width: 100%;
