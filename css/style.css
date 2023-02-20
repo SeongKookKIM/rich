@@ -472,11 +472,12 @@ figure img {
 }
 .next_button img,
 .prev_button img {
-  transition: transform 0.5s ease;
+  transition: all 0.5s ease;
 }
 .next_button:hover img,
 .prev_button:hover img {
   transform: scale(110%);
+  filter: drop-shadow(0px 0px 5px #fff);
 }
 
 /* Swiper Common */
@@ -601,7 +602,7 @@ figure img {
   width: 82px !important;
   height: 99px !important;
   margin: 0;
-  transition: transform 0.5s ease;
+  transition: all 0.5s ease;
 }
 .swiper-button-next img {
   width: 100%;
@@ -620,6 +621,7 @@ figure img {
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   transform: scale(110%);
+  filter: drop-shadow(0px 0px 3px #fff);
 }
 .swiper-slide-active .token-title {
   opacity: 1;
