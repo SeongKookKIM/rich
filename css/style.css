@@ -24,6 +24,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   will-change: auto;
+  z-index: 9999999;
 }
 
 /* portrait */
