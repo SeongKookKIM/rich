@@ -186,6 +186,7 @@
   height: 300px;
   z-index: 77;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .slider_circle_10 .active {
@@ -208,6 +209,7 @@
   width: 350px;
   height: 350px;
   z-index: 88;
+  pointer-events: none;
 }
 .slider_circle_10 .prev1 {
   left: 30%;
