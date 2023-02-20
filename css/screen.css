@@ -2,7 +2,6 @@
   body {
     box-sizing: border-box;
     overflow: hidden;
-    height: var(--doc-height);
   }
   .portrait {
     display: block;
