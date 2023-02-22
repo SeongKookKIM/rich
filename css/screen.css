@@ -385,7 +385,7 @@
   }
   .enter {
     width: 209px;
-    height: 106px;
+    height: 86px;
   }
   .enter input {
     font-size: 20px;
@@ -493,6 +493,9 @@
   body {
     box-sizing: border-box;
   }
+  .enter input {
+    padding-top: 5px;
+  }
   figure {
     margin-top: 20px;
   }
@@ -539,6 +542,7 @@
   .scorll-top {
     top: 7%;
   }
+
   .swiper-name {
     top: 25%;
     width: 600px;
@@ -554,6 +558,9 @@
   }
 }
 @media (max-height: 580px) and (max-width: 1024px) {
+  .enter input {
+    padding-top: 2.5px;
+  }
   .swiper-name {
     top: 30%;
   }
@@ -591,10 +598,11 @@
   }
   .enter {
     width: 109px;
-    height: 86px;
+    height: 36px;
   }
   .enter input {
     font-size: 10px;
+    height: 17px;
   }
   .slider_circle_10 .active {
     width: 180px !important;
