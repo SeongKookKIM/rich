@@ -159,7 +159,6 @@ figure img {
   font-family: "BodoniXT";
   transition: transform 0.5s ease-in;
   cursor: pointer;
-  padding-top: 2px;
 }
 .enter input:hover {
   transform: scale(1.1);
