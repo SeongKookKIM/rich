@@ -471,9 +471,26 @@
     top: 4%;
   }
   .gallery h3 {
-    top: 90%;
+    top: 100%;
   }
-
+  /* @@@@@@@@@@@@@@@ */
+  .slider_circle_10 .active {
+    width: 240px !important;
+    height: 240px !important;
+    top: 55% !important;
+  }
+  .slider_circle_10 .prev1,
+  .slider_circle_10 .next1 {
+    width: 200px !important;
+    height: 200px !important;
+    top: 50% !important;
+  }
+  .slider_circle_10 .hidden {
+    width: 190px !important;
+    height: 190px !important;
+    top: 45% !important;
+  }
+  /* @@@@@@@@@@@@@@@ */
   .swiper-img {
     top: 65% !important;
   }

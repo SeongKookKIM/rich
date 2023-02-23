@@ -415,6 +415,7 @@ figure img {
   transform: scale(110%);
 }
 .active .gallery:hover h3 {
+  top: 105%;
   transform: translate(-50%, -50%) scale(110%);
 }
 .gallery h3 {
