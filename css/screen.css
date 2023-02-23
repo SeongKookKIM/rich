@@ -509,7 +509,9 @@
   figure {
     margin-top: 20px;
   }
-
+  .first-content p img {
+    width: 30px;
+  }
   .header {
     height: 120px;
   }
