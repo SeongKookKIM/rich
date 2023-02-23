@@ -471,17 +471,9 @@
     top: 4%;
   }
   .gallery h3 {
-    top: 85%;
-  }
-  .scroll-born .gallery h3 {
     top: 90%;
   }
-  .scroll-final .gallery h3 {
-    top: 90%;
-  }
-  .scroll-bless .gallery h3 {
-    top: 90%;
-  }
+
   .swiper-img {
     top: 65% !important;
   }
@@ -691,6 +683,7 @@
     height: 40px;
   }
   .comingsoon figure > p {
+    padding-top: 2px;
     font-size: 10px;
   }
   .buy {

@@ -440,15 +440,7 @@ figure img {
   opacity: 1;
   cursor: pointer;
 }
-.scroll-born .gallery h3 {
-  top: 105%;
-}
-.scroll-final .gallery h3 {
-  top: 105%;
-}
-.scroll-bless .gallery h3 {
-  top: 105%;
-}
+
 .sub {
   width: 400%;
   position: absolute;
@@ -709,6 +701,10 @@ figure img {
   transition: all 0.5s ease;
 }
 .comingsoon figure:hover > p {
+  transform: scale(110%);
+  text-shadow: 0 0 5px white;
+}
+.buy figure:hover > p {
   transform: scale(110%);
   text-shadow: 0 0 5px white;
 }
