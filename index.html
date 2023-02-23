@@ -78,6 +78,13 @@
         window.scrollTo(0, 1);
       }
     </script>
+
+    <!-- === SameSite === -->
+    <script type="text/javascript">
+      document.cookie = "safeCookie1=foo; SameSite=Lax";
+      document.cookie = "safeCookie2=foo";
+      document.cookie = "crossCookie=bar; SameSite=None; Secure";
+    </script>
   </head>
   <body
     oncontextmenu="return false"
@@ -583,7 +590,7 @@
                 road. Experience the limits of speed.
               </p>
             </div>
-            <div class="comingsoon">
+            <div class="buy">
               <figure>
                 <img class="lazy" data-src="img/nft/enter.png" alt="enter" />
                 <p
@@ -767,7 +774,7 @@
                 <p
                   onclick="window.open('https://strmnft.com/collection/nft/156333')"
                 >
-                  BUY NOW
+                  COMING SOON
                 </p>
               </figure>
             </div>
@@ -948,7 +955,7 @@
                 <p
                   onclick="window.open('https://strmnft.com/collection/nft/156333')"
                 >
-                  BUY NOW
+                  COMING SOON
                 </p>
               </figure>
             </div>
@@ -1163,7 +1170,7 @@
                 <p
                   onclick="window.open('https://strmnft.com/collection/nft/156333')"
                 >
-                  BUY NOW
+                  COMING SOON
                 </p>
               </figure>
             </div>

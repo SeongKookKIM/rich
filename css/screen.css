@@ -74,6 +74,14 @@
     top: 80%;
   }
   .comingsoon figure > p {
+    font-size: 25px;
+  }
+  .buy {
+    width: 350px;
+    height: 80px;
+    top: 80%;
+  }
+  .buy figure > p {
     font-size: 30px;
   }
 }
@@ -159,6 +167,13 @@
     top: 90%;
   }
   .comingsoon figure > p {
+    font-size: 17px;
+  }
+  .buy {
+    width: 250px;
+    top: 90%;
+  }
+  .buy figure > p {
     font-size: 20px;
   }
 }
@@ -226,7 +241,7 @@
     height: 106px;
   }
   .enter input {
-    font-size: 20px;
+    font-size: 16px;
   }
   .roadmap .open-book {
     transform: scale(60%);
@@ -361,6 +376,9 @@
     line-height: 1.5;
   }
   .comingsoon {
+    top: 85%;
+  }
+  .buy {
     top: 85%;
   }
   .swiper-back {
@@ -558,6 +576,9 @@
   }
 }
 @media (max-height: 580px) and (max-width: 1024px) {
+  .enter {
+    margin-bottom: 20px;
+  }
   .enter input {
     padding-top: 2.5px;
   }
@@ -670,7 +691,14 @@
     height: 40px;
   }
   .comingsoon figure > p {
-    font-size: 16px;
+    font-size: 10px;
+  }
+  .buy {
+    width: 150px;
+    height: 40px;
+  }
+  .buy figure > p {
+    font-size: 14px;
   }
 }
 
@@ -799,6 +827,12 @@
     width: 300px;
   }
   .comingsoon figure > p {
+    font-size: 20px;
+  }
+  .buy {
+    width: 300px;
+  }
+  .buy figure > p {
     font-size: 27px;
   }
   .open-book {

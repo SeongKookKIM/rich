@@ -666,7 +666,43 @@ figure img {
 }
 .comingsoon figure > p {
   position: absolute;
+  padding-right: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffee00;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.buy {
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.buy figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buy figure img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+
+  z-index: 1;
+}
+.buy figure > p {
+  position: absolute;
   font-size: 37px;
+  text-align: center;
   color: #ffee00;
   z-index: 10;
   cursor: pointer;
