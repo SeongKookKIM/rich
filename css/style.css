@@ -5,6 +5,10 @@
     url("../font/BodoniXT.woff") format("woff"),
     url("../font/BodoniXT.ttf") format("truetype");
 }
+html,
+body {
+  height: var(--vh);
+}
 html {
   overflow: hidden;
 }
@@ -29,7 +33,7 @@ body {
 /* portrait */
 .portrait {
   width: 100%;
-  height: 100vh;
+  height: var(--vh);
   background-color: rgba(0, 0, 0, 1);
   backdrop-filter: blur(7px);
   z-index: 999999;

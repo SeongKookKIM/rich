@@ -77,6 +77,15 @@
       function loaded() {
         window.scrollTo(0, 1);
       }
+
+      const setVh = () => {
+        document.documentElement.style.setProperty(
+          "--vh",
+          `${window.innerHeight}px`
+        );
+      };
+      window.addEventListener("resize", setVh);
+      setVh();
     </script>
 
     <!-- === SameSite === -->
