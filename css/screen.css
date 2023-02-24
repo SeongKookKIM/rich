@@ -9,8 +9,11 @@
     top: 0;
     left: 0;
   }
+  .first {
+    display: none !important;
+  }
   .main {
-    display: none;
+    display: none !important;
   }
 }
 
